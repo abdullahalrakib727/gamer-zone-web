@@ -1,0 +1,14 @@
+/* mobile devices (max-width:576px) */
+
+@media screen and (max-width:576px) {
+    .nav-container, .nav-item-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .nav-item-container,
+    .logo-container img {
+        margin: 0 auto;
+      }
+}
+
+/* tablet and medium devices */
