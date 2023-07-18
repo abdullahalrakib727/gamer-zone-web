@@ -1,14 +1,22 @@
 /* mobile devices (max-width:576px) */
 
-@media screen and (max-width:576px) {
-    .nav-container, .nav-item-container{
-        flex-direction: column;
-        margin: 0 auto;
-    }
-    .nav-item-container,
-    .logo-container img {
-        margin: 0 auto;
-      }
+@media screen and (max-width: 576px) {
+  .nav-container,
+  .nav-item-container {
+    flex-direction: column;
+  }
+  .logo-container img {
+    margin-left: 170px;
+  }
+  .banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner-item {
+    padding-left: 0px;
+    margin: 0 auto;
+  }
 }
 
 /* tablet and medium devices */
