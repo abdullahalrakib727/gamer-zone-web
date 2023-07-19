@@ -21,7 +21,13 @@
     padding-left: 10px;
     text-align: center;
   }
+  .funny-video-container {
+    grid-template-columns: repeat(1,1fr);
+    padding-left: 25px;
+  }
 }
+
+
 
 /* tablet and medium devices */
 

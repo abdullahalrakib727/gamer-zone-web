@@ -92,7 +92,7 @@ nav {
 .banner-img-container {
   width: 50%;
 }
-.banner-image{
+.banner-image {
   width: 100%;
 }
 .banner-heading {
@@ -140,5 +140,49 @@ nav {
   border-radius: 48px;
   background: #4ec5f7;
   border: 0;
+  cursor: pointer;
+}
+
+/* funny video section styles */
+.funny-video-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  padding-left: 240px;
+  padding-right: 240px;
+  text-align: center;
+}
+.funny-video-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+}
+.funny-video-title span {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 48px;
+  font-weight: 700;
+}
+.funny-video-description {
+  color: #534c64;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.video-img {
+  transition: transform 250ms ease-in;
+  width: 342px;
+  height: 400px;
+}
+.video-img:hover {
+  border: 5px solid rgb(207, 102, 119);
+  background-color: #0b0223;
+  border-radius: 17px;
+  transform: scale(1.1);
+  transform-origin: center;
   cursor: pointer;
 }
