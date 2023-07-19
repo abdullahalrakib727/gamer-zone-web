@@ -34,13 +34,13 @@ nav {
 .logo-container {
   display: flex;
   width: 50%;
+  justify-content: center;
+  cursor: pointer;
 }
 
 .logo-container img {
-  width: 80px;
   object-fit: contain;
   margin-right: 20px;
-  margin-left: 240px;
 }
 
 .logo-container p {
@@ -49,11 +49,10 @@ nav {
 }
 .nav-item-container {
   display: flex;
+  justify-content: space-around;
   align-items: center;
   width: 50%;
   gap: 32px;
-  margin-left: 600px;
-  margin-right: 240px;
 }
 .nav-item-container a {
   text-decoration: none;
@@ -92,6 +91,9 @@ nav {
 }
 .banner-img-container {
   width: 50%;
+}
+.banner-image{
+  width: 100%;
 }
 .banner-heading {
   margin-top: 148px;
