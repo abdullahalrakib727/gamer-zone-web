@@ -2,7 +2,8 @@
 
 @media screen and (max-width: 576px) {
   .nav-container,
-  .nav-item-container {
+  .nav-item-container,
+  .section-content {
     flex-direction: column;
   }
   .follow-item {
@@ -22,25 +23,41 @@
     text-align: center;
   }
   .funny-video-container {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
     padding-left: 25px;
     padding-right: 25px;
   }
+  .section-content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .section-item,
+  .section-img {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .cat-girl-img {
+    bottom: 140px;
+    right: 120px;
+  }
+  .cat-girl-img img {
+    height: 200px;
+    width: 190px;
+  }
 }
-
-
 
 /* tablet and medium devices */
 
-@media screen and (min-width:577px ) and (max-width:992px) {
-  .nav-container
-  {
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .nav-container {
     flex-direction: column;
   }
-  .nav-item-container{
+  .nav-item-container {
     width: 100%;
     justify-content: space-evenly;
-    margin-bottom:20px ;
+    margin-bottom: 20px;
   }
   .banner-container {
     flex-direction: column-reverse;
@@ -56,8 +73,31 @@
     text-align: center;
   }
   .funny-video-container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     padding-left: 25px;
     padding-right: 25px;
+  }
+  .section-content {
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+  }
+  .section-item,
+  .section-img {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+  .catboy-img {
+    width: 634.833px;
+    height: 650px;
+  }
+  .cat-girl-img {
+    bottom: 290px;
+    right: 220px;
+  }
+  .cat-girl-img img {
+    width: 318.5px;
+    height: 365.083px;
   }
 }
