@@ -24,6 +24,7 @@
   .funny-video-container {
     grid-template-columns: repeat(1,1fr);
     padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
@@ -53,5 +54,10 @@
     width: 100%;
     padding-left: 10px;
     text-align: center;
+  }
+  .funny-video-container {
+    grid-template-columns: repeat(2,1fr);
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
