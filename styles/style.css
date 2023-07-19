@@ -240,3 +240,41 @@ nav {
   bottom: 250px;
   right: 150px;
 }
+
+/* game category section styles */
+
+.game-category {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-left: 249px;
+  margin-right: 249px;
+}
+.game-category .game-img {
+  width: 60px;
+  height: 60px;
+  margin-right: 16px;
+}
+.game-category button {
+  border: 0;
+  border-radius: 50px;
+  background: #fff;
+  width: auto;
+}
+button > img,
+button > span {
+  vertical-align: middle;
+}
+.game-category span {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.game-category button:hover {
+  border: 5px solid #ff42a5;
+  border-radius: 50px;
+}
+.game-category span:hover {
+  color: #ff42a5;
+}
