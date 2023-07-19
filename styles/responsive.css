@@ -1,6 +1,8 @@
 /* mobile devices  */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 425px) {
+  /* nav section responsive */
+
   .nav-container,
   .nav-item-container,
   .section-content {
@@ -9,6 +11,9 @@
   .follow-item {
     margin-bottom: 40px;
   }
+
+  /* banner section responsive */
+
   .banner-container {
     flex-direction: column-reverse;
     gap: 24px;
@@ -22,6 +27,9 @@
     padding-left: 10px;
     text-align: center;
   }
+
+  /* funny video section responsive */
+
   .funny-video-container {
     grid-template-columns: repeat(1, 1fr);
     padding-left: 25px;
@@ -32,6 +40,13 @@
     gap: 40px;
     align-items: center;
   }
+  .video-img {
+    width: 250px;
+    height: 280px;
+  }
+
+  /* 2nd banner section responsive */
+
   .section-item,
   .section-img {
     padding-left: 20px;
@@ -46,11 +61,37 @@
     height: 200px;
     width: 190px;
   }
+
+  /* game category responsive */
+
+  .game-category {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(3, auto);
+    gap: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .game-category span {
+    font-size: xx-small;
+  }
+  .game-category .game-img {
+    width: 15px;
+    height: 15px;
+    margin-right: 16px;
+  }
+  .game-category button:hover {
+    border: 2px solid #ff42a5;
+    border-radius: 50px;
+  }
+
+  /* footer section responsive */
 }
+
 
 /* tablet and medium devices */
 
-@media screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 576px) and (max-width: 992px) {
   .nav-container {
     flex-direction: column;
   }
@@ -77,6 +118,7 @@
     padding-left: 25px;
     padding-right: 25px;
   }
+
   .section-content {
     flex-direction: column;
     gap: 40px;
@@ -99,5 +141,28 @@
   .cat-girl-img img {
     width: 318.5px;
     height: 365.083px;
+  }
+
+  /* game category section responsive */
+
+  .game-category {
+    display: grid;
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: repeat(5, auto);
+    gap: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .game-category span {
+    font-size: x-small;
+  }
+  .game-category .game-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 16px;
+  }
+  .game-category button:hover {
+    border: 3px solid #ff42a5;
+    border-radius: 50px;
   }
 }
