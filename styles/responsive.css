@@ -19,8 +19,8 @@
     gap: 24px;
   }
   .banner-image {
-    width: 400px;
-    height: 350px;
+    height: 300px;
+    width: 300px;
     padding-right: 0;
   }
   .banner-item {
@@ -140,8 +140,8 @@
     align-items: center;
   }
   .banner-image {
-    height: 400px;
-    width: 400px;
+    height: 450px;
+    width: 450px;
     padding-right: 0;
   }
   .banner-item {
